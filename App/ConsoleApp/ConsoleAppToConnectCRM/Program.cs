@@ -23,7 +23,7 @@ namespace ConsoleAppToConnectCRM
                 //create contact sample record
                 Entity account = new Entity();
                 account.LogicalName = "account";
-                account["name"] = "Sample Account_"+DateTime.Now.ToString();
+                account["name"] = "SampleAccount_"+DateTime.Now.ToString();
                 service.Create(account);
             }
             catch (Exception ex)
